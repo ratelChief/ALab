@@ -36,9 +36,7 @@ jobs:
           path: ./docs
 
       - name: Install dependencies
-        run: npm install --verbose
-        with:
-          path: ./docs
+        run: npm install --verbose --prefix ./docs
 
   # build:
   #   runs-on: ubuntu-latest
