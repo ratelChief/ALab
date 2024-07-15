@@ -33,9 +33,12 @@ jobs:
           cache-dependency-path: ./docs/package-lock.json
           always-auth: false
           check-latest: false
+          path: ./docs
 
       - name: Install dependencies
         run: npm install --verbose
+        with:
+          path: ./docs
 
   # build:
   #   runs-on: ubuntu-latest
