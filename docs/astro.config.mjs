@@ -9,6 +9,6 @@ export default defineConfig({
   markdown: {
     remarkPlugins: [[remarkToc, { heading: "toc" }]],
   },
-  site: "https://DigitalProductionExampleLibrary.github.io",
+  site: "https://ratelchief.github.io",
   base: "/ALab",
 });
